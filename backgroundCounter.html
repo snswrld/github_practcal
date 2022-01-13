@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>backgroundCounter</title>
+    <style>
+      button {margin: 10px}
+      h1 {text-align: center;}
+      h2 {text-align: center;}
+      img {display: block; margin-left: auto; margin-right: auto; width: 400px; border-radius: 5%; opacity: 0.1;}
+    </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  </head>
+  <body onload="loadTime()">
+    <h1>Welcome!</h1>
+    <br>
+    <h2>Good <span id="TOD">________</span></h2>
+    <img id="sky" src="" alt="">
+    <br>
+    <button type="button" onclick="plusOne()">Click me to +</button>
+    <p>Count: <span id="number">0</span></p>
+    <button type="button" onclick="minusOne()">Click me to -</button>
+
+    <script type="text/javascript" src="backgroundCounter.js"></script>
+  </body>
+</html>
